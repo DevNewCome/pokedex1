@@ -5,7 +5,8 @@ let btnProcurar = document.querySelector('#procurar')
 btnProcurar.addEventListener('click', async (e)=>{
     e.preventDefault()
    
-let inputValor = document.querySelector('#pokeNome').value  
+let inputValor = document.querySelector('#pokeNome').value.toLowerCase();
+
 
 if(!inputValor){
     alert('Campo vázio')
