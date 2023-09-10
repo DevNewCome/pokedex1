@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+
+#container{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#menu{
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 500px;
+    height: 550px;
+    background-color: rgb(234, 236, 104);
+}
+
+#foto{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 100%;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#inputs h3{
+    color: black;
+}
+
+#pokeNome{
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+}
+
+#titulo{
+    font-weight: bolder;
+}
+
+#nome{
+    font-size: 50px;
+}
+
+#procurar{
+    background-color: #ccc;
+    color: white;
+    font: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#procurar:hover{
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+
+#carregando{
+    color: red;
+    background-color: red; 
+    border-radius: 10px;
+}
+
+
+.loading{
+    background-color: red;
+}
+
+.hide{
+    display: none;
+}
+
+#numero{
+    font-size: 40px;
+}
